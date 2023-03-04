@@ -7,7 +7,7 @@ on:
 jobs:
   push_to_registries:
     name: Push Docker image to the ghcr.io registry TEST
-    runs-on: ubuntu-latest
+    runs-on: alpine-latest
     permissions:
       contents: read
       packages: write
